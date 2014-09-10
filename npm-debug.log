@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose cache add [ 'http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647',
+4 verbose cache add   null ]
+5 verbose cache add name=undefined spec="http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647" args=["http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647",null]
+6 verbose parsed url { protocol: 'http:',
+6 verbose parsed url   slashes: true,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: 'strongloop.us8.list-manage1.com',
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: 'strongloop.us8.list-manage1.com',
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: '?u=fff96e3211df0eba0c4cbe647',
+6 verbose parsed url   query: 'u=fff96e3211df0eba0c4cbe647',
+6 verbose parsed url   pathname: '/track/click',
+6 verbose parsed url   path: '/track/click?u=fff96e3211df0eba0c4cbe647',
+6 verbose parsed url   href: 'http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647' }
+7 silly lockFile e4974773-lick-u-fff96e3211df0eba0c4cbe647 http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647
+8 verbose lock http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647 C:\Users\Matt\AppData\Roaming\npm-cache\e4974773-lick-u-fff96e3211df0eba0c4cbe647.lock
+9 verbose addRemoteTarball [ 'http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647',
+9 verbose addRemoteTarball   null ]
+10 info retry fetch attempt 1 at 23:16:08
+11 verbose fetch to= C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647
+12 http GET http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647
+13 http 200 http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647
+14 verbose tar unpack C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647
+15 silly lockFile 0f4b1823-fff96e3211df0eba0c4cbe647-unpack tar://C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647-unpack
+16 verbose lock tar://C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647-unpack C:\Users\Matt\AppData\Roaming\npm-cache\0f4b1823-fff96e3211df0eba0c4cbe647-unpack.lock
+17 silly lockFile 8f31ff33--3Fu-3Dfff96e3211df0eba0c4cbe647 tar://C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647
+18 verbose lock tar://C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647 C:\Users\Matt\AppData\Roaming\npm-cache\8f31ff33--3Fu-3Dfff96e3211df0eba0c4cbe647.lock
+19 silly gunzTarPerm modes [ '777', '666' ]
+20 error not a package C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647
+21 silly lockFile 0f4b1823-fff96e3211df0eba0c4cbe647-unpack tar://C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647-unpack
+22 silly lockFile 0f4b1823-fff96e3211df0eba0c4cbe647-unpack tar://C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647-unpack
+23 silly lockFile 8f31ff33--3Fu-3Dfff96e3211df0eba0c4cbe647 tar://C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647
+24 silly lockFile 8f31ff33--3Fu-3Dfff96e3211df0eba0c4cbe647 tar://C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647
+25 silly lockFile e4974773-lick-u-fff96e3211df0eba0c4cbe647 http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647
+26 silly lockFile e4974773-lick-u-fff96e3211df0eba0c4cbe647 http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647
+27 error Error: ENOENT, open 'C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647-unpack\package.json'
+28 error If you need help, you may report this *entire* log,
+28 error including the npm and node versions, at:
+28 error     <http://github.com/npm/npm/issues>
+29 error System Windows_NT 6.2.9200
+30 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "http://strongloop.us8.list-manage1.com/track/click?u=fff96e3211df0eba0c4cbe647"
+31 error cwd d:\Insync\dev\gamechangr\coaches
+32 error node -v v0.10.30
+33 error npm -v 1.4.21
+34 error path C:\Users\Matt\AppData\Local\Temp\npm-8128-eL7yLFtp\strongloop.us8.list-manage1.com\track\click_3Fu_3Dfff96e3211df0eba0c4cbe647-unpack\package.json
+35 error code ENOENT
+36 error errno 34
+37 verbose exit [ 34, true ]
