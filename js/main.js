@@ -210,7 +210,7 @@ switch (window.location.host) {
 			
 			assignFields();
 			
-			$('#coach-application button[type=submit], #coach-application button[type=submit]').click(function() {
+			$('#coach-home button[type=submit], #coach-application button[type=submit]').click(function() {
 				var data;
 				
 				analytics.track('Coach Apply', {
