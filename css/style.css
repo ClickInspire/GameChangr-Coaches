@@ -446,7 +446,10 @@ body {
 }
 
 #homescreen .cta2 {
-	left: 640px;
+	top: -36px;
+	height: 57px;
+	position: relative;
+	left: 0;
 }
 
 #logo, #logo_header, #slogan, #home_image {
