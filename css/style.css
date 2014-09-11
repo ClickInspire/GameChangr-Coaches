@@ -351,6 +351,10 @@ body {
   background-size: inherit;
 }
 
+#coach-home #coach-application {
+	padding-top: 0;
+}
+
 #subpage-header {
 	height: 10.125rem;
 	text-align: left;
