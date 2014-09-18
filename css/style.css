@@ -473,10 +473,31 @@ body {
 	margin: 20px 0;
 	text-align: left;
 	overflow: hidden;
+	float: left;
+	width: 100%;
 }
 
 .input-group.slider {
 	overflow: inherit;
+}
+
+.input-group.checkbox {
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	background: white;
+	padding: 15px;
+}
+
+.input-group.checkbox label {
+	color: #777;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.input-group.checkbox input[type=checkbox] {
+	float: left;
+	width: auto;
+	margin: 6px 15px 6px 5px;
 }
 
 label {

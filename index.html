@@ -89,7 +89,14 @@
 							<h3 class="text-center">Coach Application</h3>
 							<div class="input-group">
 								<label>Your Name</label>
-								<input type="text" name="name">
+								<div class="row dual-input">
+									<div class="col-md-6">
+										<input type="text" name="first-name" placeholder="First Name">
+									</div>
+									<div class="col-md-6">
+										<input type="text" name="last-name" placeholder="Last Name">
+									</div>
+								</div>
 							</div>
 							<div class="input-group">
 								<label>DotaBuff Link</label>
@@ -179,6 +186,9 @@
 									However, we realize not everyone can afford top tier talent.<br>
 									Price yourself as you feel your time deserves. You can always change this later.
 								</span>
+							</div>
+							<div class="input-group checkbox">
+								<label><input type="checkbox" name="opt-in"> Opt-in receive GameChangr updates and coaching tips.</label>
 							</div>
 							<button type="submit" class="full-width">Apply</button>
 							<p class="form-error" hidden>There were errors in the form, please check above.</p>
